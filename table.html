@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table class="mainTable">
+            <tr class="tableRow">
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 100 </div>
+                </td>
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 200 </div>
+                </td>
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 300 </div>
+                </td>
+            </tr>
+            <tr class="tableRow">
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 400 </div>
+                </td>
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 500 </div>
+                </td>
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 600 </div>
+                </td>
+            </tr>
+            <tr class="tableRow">
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 700 </div>
+                </td>
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 800 </div>
+                </td>
+                <td class="tableCell">
+                    <div class="rect" draggable="true"> 900 </div>
+                </td>
+            </tr>
+        </table>
+
+        <div>
+            <button class="addRow">Add Row</button>
+        </div>
+
+        <div class="">
+            <button class="undo">Undo</button>
+            <button class="redo">Redo</button>
+        </div>
+    </div>
+
+    <script src="./table.js"></script>
+</body>
+</html>
